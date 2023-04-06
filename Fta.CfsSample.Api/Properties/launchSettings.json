@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Fta.CfsSample.Api": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7223"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31409,
+      "useSSL": false
+    }
+  }
+}
